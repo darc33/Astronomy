@@ -3,6 +3,7 @@
 Files used:
 - CSV
 - FITS (Flexible Image Transport System)
+- Dat: For the BSS (Bright Source Sample)
 
 Some useful functions to analyze astronomical data (images, electromagnetic spectra, photon lists, data cubes, etc.):
 
@@ -15,5 +16,13 @@ Some useful functions to analyze astronomical data (images, electromagnetic spec
 - Plot Fits
 - Histogram
 - Mean, median and std of histogram
+- HMS (Hours, minutes, seconds) to decimal degrees
+- DMS (Degrees, minutes, seconds) to decimal degrees
+- Angular distances (Between two objects in the universe)
+- Load BSS files
+- Load SuperCOSMOS all-sky galaxy catalogue files
+- Find the closest match in catalogue for a target source  
+- Crossmatch of catalogues for find matches and non matches
+
 
 
