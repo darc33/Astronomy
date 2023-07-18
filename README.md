@@ -24,7 +24,7 @@ Some useful functions to analyze astronomical data (images, electromagnetic spec
     - Angular distances (Between two objects in the universe)
     - Find the closest match in catalogue for a target source  
     - Crossmatch of catalogues for find matches and non matches
-- Databases:
+- Databases(CRUD): 
     - Stars table
     - Planets table
 

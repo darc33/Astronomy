@@ -19,7 +19,7 @@ CREATE TABLE Star (
   PRIMARY KEY (koi_name)
 );
 
-COPY Star (kepler_id, koi_name, t_eff, radius) FROM 'stars.csv' CSV;
+COPY Star (kepler_id, koi_name, t_eff, radius) FROM '/Resources/stars.csv' CSV;
 
 #CREATES DATABASE FROM A CSV FOR PLANETS
 CREATE TABLE Planet (
@@ -33,7 +33,7 @@ CREATE TABLE Planet (
   PRIMARY KEY (koi_name)
 );
 
-COPY Planet (kepler_id, koi_name, kepler_name, status, period, radius, t_eq) FROM 'planets.csv' CSV;
+COPY Planet (kepler_id, koi_name, kepler_name, status, period, radius, t_eq) FROM 'Resources/planets.csv' CSV;
 
 #QUERIES
 Select * from Star; #Select all atributes from the selected database

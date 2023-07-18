@@ -30,9 +30,9 @@ CREATE TABLE Planet (
   PRIMARY KEY (koi_name)
 );
 
-COPY Star (kepler_id, t_eff, radius) FROM 'stars.csv' CSV;
+COPY Star (kepler_id, t_eff, radius) FROM 'Resources/stars.csv' CSV;
 
-COPY Planet (kepler_id, koi_name, kepler_name, status, period, radius, t_eq) FROM 'planets.csv' CSV;
+COPY Planet (kepler_id, koi_name, kepler_name, status, period, radius, t_eq) FROM 'Resources/planets.csv' CSV;
 
 #QUERIES
 
