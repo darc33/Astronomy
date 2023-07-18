@@ -38,7 +38,7 @@ def angular_dist(ra1,dec1,ra2,dec2):#ra:right ascencion, dec:declination
 #lee un archivo del radiotelescopio AT20G Bright Source Sample(BSS)  
 def import_bss():
   
-  cat = np.loadtxt('bss.dat', usecols=range(1, 7))
+  cat = np.loadtxt('Resources/bss.dat', usecols=range(1, 7))
   row,col = cat.shape
   tuples = []
   for i in range(row):
@@ -57,7 +57,7 @@ def import_bss():
 #lee un archivo del telescopio optico SuperCOSMOS all-sky galaxy
 def import_super():
   
-  cat = np.loadtxt('super.csv', delimiter=',', skiprows=1, usecols=[0, 1])
+  cat = np.loadtxt('Resources/super.csv', delimiter=',', skiprows=1, usecols=[0, 1])
   row,col = cat.shape
   tuples = []
   
