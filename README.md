@@ -27,6 +27,7 @@ Some useful functions to analyze astronomical data (images, electromagnetic spec
 - Databases(CRUD): 
     - Stars table
     - Planets table
+-Decision tree model to get the distances of the galaxies
 
 
 
